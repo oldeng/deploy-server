@@ -18,8 +18,8 @@ const createWindow = () => {
   Menu.setApplicationMenu(null);
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 960,
+    height: 540,
     javascript: true,
     backgroundColor: '#1e1e1e ',
     darkTheme: true,
@@ -41,7 +41,7 @@ const createWindow = () => {
     mainWindow.loadURL('http://localhost/');
   }
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
   mainWindow.fullScreenable = true;
   mainWindow.setMenu(null)
 

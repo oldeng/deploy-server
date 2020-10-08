@@ -1,18 +1,25 @@
+@import '../../style/index.scss';
+
 .header {
   display: flex;
   justify-content: center;
   background: #515a6e;
+  -webkit-app-region:drag;
+  @include bd(1px, red);
+
   > div {
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   }
  
 }
  .he-left{
     display: flex;
     align-items: center;
+    -webkit-app-region: no-drag;
     h1{
       color: #fff;
       margin-right: 20px;
@@ -26,7 +33,9 @@
   }
 .dropdown-menu{
   color: rgba(255,255,255,.7);
+  -webkit-app-region: no-drag;
   .heade-menu{
+    -webkit-app-region: no-drag;
     display: flex;
     justify-content: center;
     align-items: center;
