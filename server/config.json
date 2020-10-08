@@ -1,0 +1,40 @@
+{
+  "database": {
+    "port": "27017",
+    "ip": "111.230.156.35"
+  },
+  "port": 80,
+  "process": true,
+  "email": {
+    "process": false,
+    "host": "804118444@qq.com",
+    "port": 465,
+    "from": "",
+    "password": "",
+    "subject": ""
+  },
+  "oauth": {
+    "github": {
+      "state": false,
+      "client_ID": "2bf95b2bf84f51c51d3f",
+      "client_Secret": "7a61e96bd64435ce5878fbe6566074861904e97b",
+      "access_token_url": "https://github.com/login/oauth/access_token",
+      "user_info_url": "https://api.github.com/user",
+      "name": "oldeng"
+    },
+    "gitee": {
+      "state": false,
+      "client_ID": "",
+      "client_Secret": "",
+      "access_token_url": "https://gitee.com/oauth/token",
+      "user_info_url": "https://gitee.com/api/v5/user"
+    },
+    "gitlab": {
+      "state": false,
+      "client_ID": "",
+      "client_Secret": "",
+      "access_token_url": "",
+      "user_info_url": ""
+    }
+  }
+}
